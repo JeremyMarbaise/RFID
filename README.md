@@ -51,8 +51,8 @@ Ce projet démontre comment utiliser un Arduino avec un module NFC PN532 pour au
        }
    }
    ```
-   ###librairie arduino
+### librairie arduino
    utilisation de la librairie PN532 pour lire les uids des Tags NFC. Celle-ci a été modifier légerment pour enlever les debugs sur la communication en série.
 
-  ###fonctionement
+### fonctionement
   La communication se fait grace au port série de l'arduino, le script python tourne sur le  PC client afin de recevoir les différents uid des tags NFC.
